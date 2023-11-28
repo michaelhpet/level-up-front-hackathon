@@ -514,6 +514,14 @@ body {
   cursor: pointer;
 }
 
+.step_container[aria-expanded="false"] .step_info_container > p {
+  font-weight: var(--font-medium);
+}
+
+.step_container[aria-expanded="true"] .step_info_container > p {
+  cursor: unset;
+}
+
 .step_info_container article {
   max-width: 483.85px;
   display: flex;
